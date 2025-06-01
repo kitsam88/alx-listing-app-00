@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  font-family: 'Inter', sans-serif; /* Change this if you'd like to customize the font */
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* You can change the background color */
+  color: #333; /* Default text color */
+}
+
+/* Global styles for links */
+a {
+  color: inherit; /* Links will inherit color from their parent */
+  text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Custom CSS variables if needed */
+:root {
+  --background: #ffffff;
+  --foreground: #333333;
+}
